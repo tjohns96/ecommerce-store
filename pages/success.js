@@ -5,7 +5,7 @@ import { playConfetti } from "../lib/utils";
 
 import { useStateContext } from "../context/StateContext";
 
-export default function success() {
+export default function Success() {
   const { setCartItems, setTotalPrice, setTotalQuantities } = useStateContext();
   useEffect(() => {
     localStorage.clear();
